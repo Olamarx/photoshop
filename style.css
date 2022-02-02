@@ -1,0 +1,144 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-layer{
+    /* display: flex; */
+    background-color: #fff0ff; /* */
+    height: 100vh;
+    width: 100vw;
+    /* position: fixed; */
+}
+
+.second-layer{
+    margin: 3em 3em 3em 3em;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, hsl(215, 7%, 65%), #d7e7ff, #7aa3af, #c58acf, #939cb3, #93a87b, #738999);
+    height: 85vh;
+    position: relative;
+    border-radius: 15px;
+}
+
+.third-layer{
+    
+    /* height: 77vh; */
+    /* background-color:white; */
+    /* margin: 2em 2em 3em 0 3em; */
+    border-radius: 50px;
+}
+
+.ul{
+    display: flex;
+    /* flex-direction: c; */
+    flex-wrap: wrap;
+    padding: 5px;
+    /* background-color: white; */
+    justify-content: center;
+    list-style: none;
+
+    /* flex-flow: row wrap; */
+}
+/* .ul:nth-child(2){
+    width: 45vw;
+    padding: 8px 8px;
+    margin: 2px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 77vh;
+    border: solid 5px white; 
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    /* padding: 8px 8px; */
+    /* margin: 2px; */
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 77vh;
+    background-color: #fff;
+    /* margin: 8px; */
+  }
+
+li div{
+    height: 50px;
+    width: 50px;
+    background-color: #061c32;
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    border-radius: 8px;
+    color: #449fe8;
+}
+
+li h4{
+    margin-top: 20vh;
+    /* margin-left: 5vh; */
+    background: #a6a7a9;
+    border-radius: 2px;
+    width: 70px;
+    text-align: center;
+    color: #515254;
+}
+li h1{
+    margin-top: 10px;
+    font-size: 70px;
+}
+
+.down{
+    margin-top: 33.5vh;
+    transform: rotate(90deg);
+    color: white;
+    background-image: linear-gradient(to bottom right, #f00115, #e89c2d, #f006d6, #2c85ff, #3fc442);
+}
+
+
+.ul li .right{
+    border: 5px solid white;
+
+}
+.ul li .left{
+    background-image: url(./img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45vw;
+    height: 77vh;
+    border: 5px solid white;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
